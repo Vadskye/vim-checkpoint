@@ -44,4 +44,4 @@ function! s:get_checkpoint_file_path() abort
     \ )
 endfunction
 
-let g:loaded_filesight_auto = 1
+let g:loaded_checkpoint_auto = 1
