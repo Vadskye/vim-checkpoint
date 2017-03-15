@@ -4,7 +4,7 @@ endif
 
 function! checkpoint#save_checkpoint() abort
     let checkpoint_file_path = s:get_checkpoint_file_path()
-    execute "write! " . checkpoint_file_path
+    execute "keepalt write! " . checkpoint_file_path
 endfunction
 
 function! checkpoint#load_checkpoint() abort
